@@ -1,0 +1,118 @@
+view{
+    text-align: left;
+}
+.indexText{
+    font-size: 35px;
+    color:orange;
+    font-style: italic;
+    text-align: left; 
+}
+.indexBackgroundImages{
+    box-sizing: border-box;
+    /* border:1px solid red; */
+    width: 100%;
+    height:100px;
+    background-color: paleturquoise;
+    /* background-image: url("https://ftp.bmp.ovh/imgs/2020/10/7c77c2bbe586658b.png"); */
+    opacity:0.8;
+}
+.switchWords{
+    /* border:1px solid red; */
+    height: 45px;
+    margin-top:4px;
+}
+.switchWordsContent{
+    float: left;
+    /* border:1px solid red; */
+    margin-left: 15px;
+    color: grey;
+    margin-top: -5px;
+}
+.switchWordsChose{
+    float: right;
+    /* border:1px solid red; */
+   
+    background-color: rgba(40, 169, 201, 0.534);
+    border-radius: 30px;
+    padding:5px;
+    font-size:13px;
+    margin-top:8px;
+}
+.showContent{
+    /* border:1px solid blue; */
+    padding-left:5px;
+    height:50px;
+}
+.showWords{
+    /* border:1px solid greenyellow; */
+}
+.numberIntroduce{
+    color:grey;
+    font-size: 16px;
+    margin-right:8px;
+}
+.handQuntity{
+    color:blue;
+    font-size: 16px;
+}
+.slash{
+    color:green;
+    font-size: 16px;
+}
+.unHandQuntity{
+    color:grey;
+    font-size: 16px;
+    
+}
+.floatLeft{
+    float:left;
+}
+.progressBar{
+    border-radius: 20px;
+    /* border:1px solid yellow; */
+    height: 20px;
+    background-color: lightgray;
+}
+.progressBar1{
+    border:1px solid yellow;
+    height: 20px;
+    border-radius: 20px;
+    width: 30%;
+    background-color: lightskyblue;
+}
+.showQuntityCOntent{
+    /* border:1px solid red; */
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.showTodayQuntityNumber_int{
+    display: inline-block;
+    /* border:1px solid peru; */
+    font-size: 15px;
+}
+.showTodayQuntityNumber_String{
+    /* border:1px solid black; */
+    font-size: 20px;
+    color: lightskyblue;
+}
+.textCenter{
+    text-align: center;
+}
+.twoButton{
+    box-sizing: border-box;
+    margin-top:5px;
+}
+.beginStudy{
+    background-color: rgba(0, 140, 255, 0.616);
+    border-radius: 30px;
+    padding:10px;
+}
+.checkMyNote{
+    box-sizing: border-box;
+    margin-top:10px;
+    background-color: lightgrey;
+    border-radius: 30px;
+    padding:10px;
+}

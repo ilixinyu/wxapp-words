@@ -1,0 +1,44 @@
+
+<view class="indexBackgroundImages">
+       <text class="indexText" >
+           Come on!
+       </text>  
+</view>
+<view class="switchWords">
+    <text class="switchWordsContent">
+        ---
+    </text>
+      <button class="switchWordsChose" style="width:40%">切换词库</button>
+</view>
+<view class="showWords">
+   <view class="showContent">
+        <text class="floatLeft numberIntroduce">
+            已掌握 
+        </text>
+        <text class="floatLeft handQuntity">
+            --- 
+        </text>
+        <text class="floatLeft slash" >
+            |
+        </text>
+        <text class="floatLeft unHandQuntity">
+           ---
+        </text>
+   </view>
+    <view class="progressBar">
+     <view class="progressBar1">
+     </view>
+   </view>
+</view>
+<view class="showQuntityCOntent" >
+    <text class="showTodayQuntityNumber_int" >
+    ——
+    </text>\n
+    <text class="showTodayQuntityNumber_String" >
+    今日已掌握单词
+    </text>
+</view>
+<view class="twoButton">
+    <button class="beginStudy" style="width:80%">进入学习</button>
+    <button class="checkMyNote" style="width:80%">我的单词</button>
+</view>
