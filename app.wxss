@@ -1,4 +1,5 @@
 /**app.wxss**/
+<<<<<<< HEAD
 @import"./styles/iconfont.wxss";
 /* 微信小程序中不支持通配符"*" */
 page,view,swiper,swiper-item,image,navigtor{
@@ -17,3 +18,34 @@ page{
 	1px = 2rpx*/
 	font-size:32rpx;
 }
+=======
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*padding: 200rpx 0;*/
+  box-sizing: border-box;
+  background: #F0F4F3;
+}
+
+.container.withtab{
+  margin: 105rpx 0 0 0;
+  /*top: 105rpx;*/
+}
+.flex-wrp{
+  display: flex;
+}
+.flex-tab{
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+
+
+>>>>>>> 3b2e0f7 (update)

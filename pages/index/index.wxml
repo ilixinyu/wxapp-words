@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 <view class="indexBackgroundImages">
        <text class="indexText" >
            Come on!
@@ -41,4 +42,76 @@
 <view class="twoButton">
     <button class="beginStudy" style="width:80%">进入学习</button>
     <button class="checkMyNote" style="width:80%">我的单词</button>
+=======
+<view class="container more">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="../images/person.jpg" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class="userinfo-nickname"></text>
+      <text class="edit">查看或编辑个人主页</text>
+    </view>
+  </view>
+
+  <view class="my">
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/eye.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>签到次数</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/star.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的收藏</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/recent.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的计划</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/book.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>生 词 本</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/live.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的积分</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/more.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>问题反馈</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../images/burger.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>退出</text>
+      </view>
+    </view>
+
+  </view>
+>>>>>>> 3b2e0f7 (update)
 </view>

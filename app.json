@@ -1,5 +1,6 @@
 {
   "pages":[
+<<<<<<< HEAD
     "pages/index/index",
     "pages/testWords/index",
     "pages/dynamic/index",
@@ -46,5 +47,17 @@
       }
     ]
   },
+=======
+    "pages/index/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+>>>>>>> 3b2e0f7 (update)
   "sitemapLocation": "sitemap.json"
 }
