@@ -1,0 +1,11 @@
+<view class="container">
+<text class="motto">单词</text>
+<text class="motto">发音</text>
+<text class="motto">释义</text>
+<view class="button1">
+<text class="button-text">添加到生词本</text>
+</view>
+<view class="button2">
+  <text class="button-text">下一个</text>
+</view>
+</view>

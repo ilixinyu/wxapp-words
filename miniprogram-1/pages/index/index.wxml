@@ -1,44 +1,13 @@
-
-<view class="indexBackgroundImages">
-       <text class="indexText" >
-           Come on!
-       </text>  
-</view>
-<view class="switchWords">
-    <text class="switchWordsContent">
-        ---
-    </text>
-      <button class="switchWordsChose" style="width:40%">切换词库</button>
-</view>
-<view class="showWords">
-   <view class="showContent">
-        <text class="floatLeft numberIntroduce">
-            已掌握 
-        </text>
-        <text class="floatLeft handQuntity">
-            --- 
-        </text>
-        <text class="floatLeft slash" >
-            |
-        </text>
-        <text class="floatLeft unHandQuntity">
-           ---
-        </text>
-   </view>
-    <view class="progressBar">
-     <view class="progressBar1">
-     </view>
-   </view>
-</view>
-<view class="showQuntityCOntent" >
-    <text class="showTodayQuntityNumber_int" >
-    ——
-    </text>\n
-    <text class="showTodayQuntityNumber_String" >
-    今日已掌握单词
-    </text>
-</view>
-<view class="twoButton">
-    <button class="beginStudy" style="width:80%">进入学习</button>
-    <button class="checkMyNote" style="width:80%">我的单词</button>
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
 </view>

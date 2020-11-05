@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="motto">生词1</text>
+  <text class="motto">生词2</text>
+  <text class="motto">生词3</text>
+</view>
