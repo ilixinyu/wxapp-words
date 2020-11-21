@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/testWords/testWords",
+    "pages/dynamic/dynamic",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/lexicon/lexicon",
+    "pages/calendar/calendar",
+      "pages/hello/hello",
+      "pages/sign_in3/sign_in3"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#66a4d6",
+    "navigationBarTitleText": "memoryWords",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "#eeeeee",
+    "selectedColor": "#000000",
+    "backgroundColor": "#66a4d6",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/indexBefore.png",
+        "selectedIconPath": "icons/indexAfter.png"
+      },
+      {
+        "pagePath":  "pages/testWords/testWords",
+        "text": "测试",
+        "iconPath": "icons/testBefore.png",
+        "selectedIconPath": "icons/testAfter.png"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "社交",
+        "iconPath": "icons/dynamicBefore.png",
+        "selectedIconPath": "icons/dynamicAfter.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icons/mineBefore.png",
+        "selectedIconPath": "icons/mineAfter.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

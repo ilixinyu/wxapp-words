@@ -1,0 +1,102 @@
+<view class="page">
+<view wx:if="{{!choice}}" class="btn_content">  
+    <view class="botton"  >
+      <view class="word">考研词汇</view><view class="num_word">3837词</view>
+      <button bindtap="choice_book" id="{{id1}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton"  > 
+      <view class="word">四级词汇</view><view class="num_word">2895词</view>
+      <button bindtap="choice_book" id="{{id3}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton"  >
+      <view class="word">六级词汇</view><view class="num_word">2085词</view>
+      <button bindtap="choice_book" id="{{id4}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton" >
+      <view class="word">四级核心词</view> <view class="num_word">687词</view>
+      <button  bindtap="choice_book" id="{{id12}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton"  > 
+      <view class="word">六级重点词</view><view class="num_word">407词</view>
+      <button bindtap="choice_book" id="{{id13}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton"  > 
+      <view class="word">考研核心词</view><view class="num_word">817词</view>
+      <button bindtap="choice_book" id="{{id11}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton"  > 
+      <view class="word">软件测试</view><view class="num_word">500词</view>
+      <button bindtap="choice_book" id="{{id15}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:10%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+   <view class="botton" >
+      <view class="word">专八词汇</view><view class="num_word">1938词</view>
+      <button bindtap="choice_book" id="{{id14}}" class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            查看
+      </button>
+       <button class="num_word" style="width:15%;color:#098;heigth:8%;padding:3px; background-color:#59bbd1;">
+            添加
+      </button>
+   </view>
+</view>
+
+<template name="book">
+   <view class="botton_word">
+      <view class="word2">{{item}} </view>
+    </view>
+</template>
+
+<view wx:if="{{choice}}" class="choice_bolock">
+    <view class='botton'>
+       <view class="word" bindtap='choice_book' id='no'>返回</view>
+
+        <button class="num_word" style="width:25%;color:#098;height:70%;padding:0px;padding-top:4px;">
+            添加词库
+        </button>
+    </view>
+    <block wx:for="{{book_list}}">
+        <template is="book" data="{{item}}"/>
+    </block>
+</view>
+
+<view style='margin: 2%; border-radius: 5px;'>
+ <official-account></official-account>
+ <image style="width: 100%; " mode="scaleToFill" src='../../images/bottom.gif'></image>
+ </view>
+
+</view>
+

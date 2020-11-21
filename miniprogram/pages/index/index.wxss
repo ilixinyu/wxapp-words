@@ -1,0 +1,189 @@
+view{
+    text-align: left;
+}
+page{
+    /* background-color: rgba(223, 243, 255, 0.993); */
+    background-color:rgba(210, 232, 255, 0.963);
+}
+.indexBackgroundImages{ 
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+    border-radius: 10px;
+    background-color: rgb(188, 229, 243);
+    padding-bottom: 5px;
+    /* background-image: url("../images/dog.jpg");  */
+}
+.oneSentence{
+    margin-top: -20px;
+    /* border:1px solid red; */
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    font-family: 'Brush Script MT','Ink Free','Blackadder ITC','Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgb(231, 233, 241);
+    margin-left: 30px;
+}
+.imageContainer{
+        /* border:1px solid red;  */
+        width: 100%;
+        height:130px;
+        border-radius:20px;
+        background:  rgb(188, 229, 243);
+   }
+   .item{
+        /* border:1px solid red;  */
+        border-radius:20px;
+        height:130px;
+   }
+   .itemImg{
+        /* border:1px solid red;  */
+        position: absolute;
+        width: 100%;
+        height:130px;
+        border-radius: 20px;
+        z-index: 5;
+        opacity: 0.4;
+        top: 5%;
+        bottom: 5%;
+        margin-left: 4px;
+   }
+   .active{
+        opacity: 1;
+        z-index: 10;
+        height:116px;
+        top: 5%;
+        transition:all .2s linear 0s;
+    }
+
+.container{
+    border-radius: 20px;
+    border:  rgba(204, 248, 243, 0.84) 10px ridge;
+    margin:5px 10px 0px 10px;
+    background-color:rgba(205, 235, 254, 0.993); 
+    padding-bottom: 10px;
+}
+
+.switchWords{
+    /* border:1px solid red; */
+    height: 45px;
+    margin-top:4px;
+}
+.switchWordsContent{
+    float: left;
+    /* border:1px solid red;
+    background-color: blanchedalmond; */
+    border-radius: 6px;
+    margin-left: 5px;
+    color: rgb(74, 72, 105);
+    margin-top: 12px;
+    font-size: 36rpx;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.switchWordsChose{
+    float: right;
+    /* border:1px solid red; */
+    background-color: rgba(40, 169, 201, 0.534);
+    border-radius: 30px;
+    padding:5px;
+    font-size:13px;
+    margin-top:8px;
+    color: black;
+}
+.showContent{
+    /* border:1px solid blue; */
+    padding-left:5px;
+    height:50px;
+}
+.numberIntroduce{
+    color:grey;
+    font-size: 36rpx;
+    margin-right:8px;
+    margin-left:8px;
+}
+.handQuntity{
+    color:rgba(0, 0, 255, 0.368);
+    font-size: 36rpx;
+}
+.slash{
+    color:green;
+    font-size: 16px;
+}
+.unHandQuntity{
+    color:black;
+    font-size: 36rpx;
+    
+}
+.floatLeft{
+    float:left;
+}
+.calendarBtn{
+    float: right;
+    margin-top:6px;
+    border-radius: 8px;
+    background-image: url(http://a1.qpic.cn/psc?/V10KFN6P1ndMUu/ruAMsa53pVQWN7FLK88i5ht6Pcr878AW85qHtjQy55eNhmfH77Ga02u*JZjAIIOy0DznbvhNd8b9VZn89.bf0KgpYMx52jEcrc1eDAEKiug!/c&ek=1&kp=1&pt=0&bo=yADIAMgAyAARECc!&tl=3&vuin=3188035186&tm=1605945600&sce=60-2-2&rf=0-0);
+    background-size: 100% 100%;
+    border: 5px groove goldenrod;
+}
+.progressBar{
+    border-radius: 20px;
+    /* border:1px solid yellow; */
+    height: 20px;
+    background-color: rgb(180, 189, 192);
+    margin-right:8px;
+    margin-left:8px;
+}
+.progressBar1{
+    border:1px solid yellow;
+    height: 20px;
+    border-radius: 20px;
+    width: 30%;
+    background-color: lightskyblue;
+}
+.showQuntityCOntent{
+    /* border:1px solid red; */
+    text-align: center;
+    box-sizing: border-box;
+    margin:5px 8px 0px 8px;
+}
+.showTodayQuntityNumber_int{
+    display: inline-block;
+    /* border:1px solid peru; */
+    font-size: 20px;
+    text-align: center;
+    color: rgb(68, 32, 112);
+    background-color:rgba(0, 119, 255, 0.491);
+    border-radius: 5px;
+    margin-top:5px;
+    padding: 0px 4px 0px 4px;
+}
+.showTodayQuntityNumber_String{
+    /* border:1px solid black; */
+    font-size: 20px;
+    color: lightskyblue;
+    text-align: center;
+}
+.textCenter{
+    text-align: center;
+}
+.twoButton{
+    box-sizing: border-box;
+    margin-top:5px;
+}
+.beginStudy{
+    background-color: rgba(0, 140, 255, 0.616);
+    border-radius: 30px;
+    padding:10px;
+}
+.checkMyNote{
+    box-sizing: border-box;
+    margin-top:10px;
+    background-color: rgb(232, 229, 229);
+    border-radius: 30px;
+    padding:10px;
+}

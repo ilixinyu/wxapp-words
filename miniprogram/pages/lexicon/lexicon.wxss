@@ -1,0 +1,79 @@
+page{
+  height: 100%;
+  background-color: rgba(155, 200, 243, 0.459);
+  margin-top:20px;
+}
+
+.botton{
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5px;
+  border-radius: 12px;
+  width: 96%;
+  flex-direction: row;
+  height: 44px;
+  border-bottom: 1px solid #59bbd1;
+  align-items: left;
+  background-color:rgba(190, 230, 248, 0.863);
+  letter-spacing: 3px; 
+	line-height: 25.59375px;
+  
+}
+
+.btn_content{
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+}
+
+.word{
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 15 px;
+  color: black;
+  text-align: left;
+  font-weight: 200;
+}
+
+.word2{
+  width: 40%;
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 15 px;
+  color: black;
+  text-align: left;
+  font-weight: 200;
+}
+.num_word{
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 15px;
+  color: gray;
+  font-weight: 200;
+}
+.book1{
+  margin: 5%;
+  border-radius:20px;
+  background-repeat: round;
+  width: 40%;
+  height: 130px;
+  align-items: center;
+  text-align: center;
+  border: 1px #e3351f;
+  background-image: url('https://wxt.sinaimg.cn/thumb300/a0e81c70gy1fdd6iglc3xg20az0aywfg.gif?tags=%5B%5D')
+}
+.botton_word{
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  flex-direction: row;
+  height: 42px;
+  border-bottom: 1px solid rgb(132, 192, 182);
+  text-align: left;
+  background-color: white;
+  opacity: 0.82
+}
+
+

@@ -1,0 +1,3 @@
+<!--pages/login/index.wxml-->
+<!-- plain:使按钮透明 -->
+<button type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">Login</button>

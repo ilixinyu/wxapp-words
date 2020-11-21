@@ -1,0 +1,58 @@
+<view class="indexBackgroundImages" style="height:130px;width:94%;margin-left:10px;margin-right:10px;">
+<!-- 这里previous-margin="50rpx" next-margin="50rpx"，是让前后的图能够在当前显示一部分 -->
+    <swiper class="imageContainer" bindchange="handleChange" previous-margin="50rpx" next-margin="50rpx"circular autoplay>
+    <!-- 这里让图片循环显示3次 -->
+        <block wx:for="{{imagesArr}}" wx:key="*this">
+            <swiper-item class="item">
+                <!-- 设置当前轮播图,src="{{item}}"中 item指imagesArr中的图片地址-->
+                <!-- <image class="itemImg active" src="{{item}}" ></image> -->
+                <image class="itemImg {{currentIndex == index? 'active':''}}" src="{{item}}" ></image>
+            </swiper-item>            
+        </block>
+    </swiper>
+    <view class="oneSentence">Love makes man grow up or down</view> 
+</view>
+<view class="container">
+    <view class="switchWords">
+        <view class="switchWordsContent">
+            考研词汇
+        </view>
+        <button class="switchWordsChose" style="width:40%; margin-right:8px;" id = "1" bindtap="changeLexicon">切换词库</button>
+    </view>
+    <view class="showWords">
+    <view class="showContent">
+            <text class=" floatLeft numberIntroduce">
+                已掌握 
+            </text>
+            <text class="floatLeft handQuntity">
+                300
+            </text>
+            <text class="floatLeft slash" >
+                /
+            </text>
+            <text class="floatLeft unHandQuntity">
+               3837
+            </text>
+             <!--日历打卡按钮 -->
+            <button class="calendarBtn" style=" margin-right:46px;padding:0;width:14%;height:80%;"  bindtap="clockIN">
+            </button>  
+    </view>
+        <view class="progressBar">
+        <view class="progressBar1">
+    </view>
+    </view>
+    </view>
+    <view class="showQuntityCOntent" >
+        <view class="showTodayQuntityNumber_String" >
+        今日已掌握
+         <view class="showTodayQuntityNumber_int" >
+            30
+        </view>
+        个单词
+        </view>
+    </view>
+    <view class="twoButton">
+        <button id = "2" class="beginStudy" style="width:80%" open-type="getUserInfo"  bindgetuserinfo="auth">进入学习</button>
+        <button id = "3" class="checkMyNote" style="width:80%" open-type="getUserInfo"  bindgetuserinfo="auth">我的单词</button>
+    </view>
+</view>

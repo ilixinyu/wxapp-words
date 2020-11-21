@@ -1,0 +1,58 @@
+
+<view class='page'>
+
+
+<view class="userinfo">
+    <view class='user_pic'>
+       <image class='user_pic' background-size="cover" src='{{userInfo.avatarUrl}}'></image> 
+   </view>
+    <button class='loginbtn' plain open-type="getUserInfo"  bindgetuserinfo="auth" style="width:40%;  border:1px solid #e6f6e8;  margin-left: 4%;margin-top: 7%;color: #336839;">
+    {{user_note}}
+    </button>  
+</view>
+
+<view class='study_set' >
+
+   <view  class='study_set_block' bindtap='test_card'>
+     <view class='left_block'>
+        <view class='day_num_title' >生词本</view>
+     </view>
+     
+   </view>
+
+      <view  class='study_set_block' >
+     <view class='left_block'>
+        <view class='day_num_title' >意见反馈 </view>
+     </view>
+   </view>
+
+    <view  class='study_set_block' >
+     <view class='left_block'>
+        <view class='day_num_title' >使用指南</view>
+     </view>
+   </view>
+   
+       <view  class='study_set_block'>
+     <view class='left_block'>
+        <view class='day_num_title' >关于程序</view>
+     </view>
+   </view>
+
+
+
+</view>
+<!-- 不可删除 -->
+ <view style='margin: 2%; border-radius: 5px;'>
+ <official-account></official-account>
+ <image style="width: 100%; " mode="scaleToFill" src='../../images/bottom.gif'></image>
+
+ <ad unit-id="adunit-5a06b3ea411327b7"></ad>
+ </view>
+</view>
+
+
+<!-->
+      <image style="width: 100%; height:100%; " mode="scaleToFill" src="https://upload-images.jianshu.io/upload_images/4179819-4c247b1477685278.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/700"></image>
+
+   -->
+
