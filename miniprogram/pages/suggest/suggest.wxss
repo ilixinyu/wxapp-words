@@ -1,0 +1,7 @@
+/* pages/suggest/suggest.wxss */
+.main{
+  background-color: #bbe8f394;
+}
+.btn button{
+  background-color: #a6dae794;
+}

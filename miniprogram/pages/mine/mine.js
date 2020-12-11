@@ -15,5 +15,29 @@ Page({
       }
     )
     console.log(e.detail.userInfo);
+  },
+  
+  jumpPage1:function(){
+    wx.navigateTo({
+      url: '星球页面',
+    })
+  },
+
+  jumpPage2:function(){
+    wx.navigateTo({
+      url: '生词本页面',
+    })
+  },
+
+  jumpPage3:function(){
+    wx.navigateTo({
+      url: '/pages/suggest/suggest.wxml',
+    })
+  },
+
+  jumpPage4:function(){
+    wx.navigateTo({
+      url: '/pages/guide/guide.wxml',
+    })
   }
 })

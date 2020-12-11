@@ -15,29 +15,30 @@
 
    <view  class='study_set_block' bindtap='test_card'>
      <view class='left_block'>
-        <view class='day_num_title' >生词本</view>
+        <view class='day_num_title' >
+           <button  plain bindtap="jumpPage1">星球</button>
+           </view>
      </view>
      
    </view>
 
       <view  class='study_set_block' >
      <view class='left_block'>
-        <view class='day_num_title' >意见反馈 </view>
-     </view>
-   </view>
-
-    <view  class='study_set_block' >
-     <view class='left_block'>
-        <view class='day_num_title' >使用指南</view>
+        <view class='day_num_title' > <button  plain bindtap="jumpPage2">生词本</button></view>
      </view>
    </view>
    
        <view  class='study_set_block'>
      <view class='left_block'>
-        <view class='day_num_title' >关于程序</view>
+        <view class='day_num_title' > <button  plain bindtap="jumpPage3">意见反馈</button></view>
      </view>
    </view>
 
+   <view  class='study_set_block'>
+     <view class='left_block'>
+        <view class='day_num_title' > <button  plain bindtap="jumpPage4">使用指南</button></view>
+     </view>
+   </view>
 
 
 </view>

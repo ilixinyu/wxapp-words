@@ -171,6 +171,10 @@
   font-weight: 800;
   text-align: center;
 }
+.day_num_title button{
+  border: none;
+  text-align: left;
+}
 /*
 .user-card {
 

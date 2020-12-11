@@ -1,0 +1,11 @@
+<view class="main">
+    
+    <view class="intro">
+        <view>填写意见</view>
+        <textarea value="{{textVal}}" bindinput="handleTextInput" placeholder-style="color:#ccc;font-size:24rpx" name="" id="" cols="30" rows="10" placeholder="请仔细填写意见"></textarea>
+    </view>
+</view>
+
+<view class="btn">
+    <button bindtap="gotoAudit">提交</button>
+</view>

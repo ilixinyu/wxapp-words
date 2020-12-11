@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/testWords/testWords",
     "pages/dynamic/dynamic",
@@ -7,14 +7,16 @@
     "pages/login/login",
     "pages/lexicon/lexicon",
     "pages/calendar/calendar",
-      "pages/hello/hello",
-      "pages/sign_in3/sign_in3"
+    "pages/hello/hello",
+    "pages/sign_in3/sign_in3",
+    "pages/suggest/suggest",
+    "pages/guide/guide"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#66a4d6",
     "navigationBarTitleText": "memoryWords",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "tabBar": {
@@ -31,7 +33,7 @@
         "selectedIconPath": "icons/indexAfter.png"
       },
       {
-        "pagePath":  "pages/testWords/testWords",
+        "pagePath": "pages/testWords/testWords",
         "text": "测试",
         "iconPath": "icons/testBefore.png",
         "selectedIconPath": "icons/testAfter.png"
