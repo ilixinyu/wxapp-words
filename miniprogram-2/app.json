@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/remember/cet4/cet4",
+    "pages/remember/cet6/cet6",
+    "pages/summarize/summarize",
+    "pages/popup/popup",
+    "pages/unknownlist/unknownlist",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "背单词",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
